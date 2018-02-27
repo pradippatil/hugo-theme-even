@@ -42,6 +42,10 @@ module.exports = {
       {
         test: /apple-chancery-webfont\.(woff|woff2|eot|ttf|otf|svg)$/,
         use: ['file-loader?name=[path][name].[ext]']
+      },
+      {
+        test: /Lora-(Regular|Bold|Italic|BoldItalic)\.(png|woff|woff2|eot|ttf|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+        use: ['file-loader?name=[path][name].[ext]']
       }
     ]
   },

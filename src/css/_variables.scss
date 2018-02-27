@@ -94,11 +94,18 @@ $header-padding: 20px 20px !default;
   font-style: normal;
 }
 
+@font-face { font-family: 'Lora'; font-weight: regular; src: url('../fonts/lora/Lora-Regular.ttf'); }
+@font-face { font-family: 'Lora'; font-weight: bold; src: url('../fonts/lora/Lora-Bold.ttf'); }
+@font-face { font-family: 'Lora'; font-weight: italic; src: url('../fonts/lora/Lora-Italic.ttf'); }
+@font-face { font-family: 'Lora'; font-weight: bolditalic; src: url('../fonts/lora/Lora-BoldItalic.ttf'); }
+
+
 // Font size of the logo.
 $logo-font-size: 48px !default;
 
 // Font family of the logo.
-$logo-font-family: 'Crimson Text', cursive, LiSu, sans-serif !default;
+//$logo-font-family: 'Crimson Text', cursive, LiSu, sans-serif !default;
+$logo-font-family: 'Lora', sans-serif !default;
 
 // Margin of menu item.
 $menu-item-margin-left: 10px !default;
